@@ -1,0 +1,109 @@
+/* Brandon Portfolio wbsite
+         Filename: flyoutMenu.css
+
+         Author:   www.bmonsmith.yolasite.com
+         Date:     01/18/18 */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.ys_submenu {
+  background: #fff;
+  background: #fff linear-gradient(to bottom, #fff 0%, #fff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, .5);
+  display: none;
+  margin: 0;
+  position: absolute;
+  padding: 0;
+  z-index: 99999;
+}
+
+.ys_submenu ul {
+  line-height: 160%;
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+.ys_submenu ul li {
+  clear: both;
+  line-height: 160%;
+  margin: 0;
+  padding: 0;
+}
+
+.ys_submenu ul li:hover {
+  cursor: pointer;
+}
+
+
+
+.ys_submenu .ys_submenu_inner ul li a {
+  color: #336699 !important;
+  display: block;
+  line-height: 160%;
+  margin: 0;
+  padding: 3px 10px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.ys_submenu ul li a:hover {
+  color: #fff !important;
+  margin: 0;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+
+.ys_submenu ul li:first-child:hover {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.ys_submenu ul li:last-child:hover {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.ys_submenu_inner {
+  color: #333;
+  padding: 0;
+  text-align: left;
+}
